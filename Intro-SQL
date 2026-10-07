@@ -1,0 +1,19 @@
+SQL- Structured Query Language 
+Database- where we keep all large data stored 
+Query - intruction/command provided to database to fetch a data required.
+CRUD 
+C Create; R Read; U update; D delete
+
+why not files and DATABASE? 
+-> Limited to no. of rows, not easy to accesible, not efficient to use and update ;
+->Not easy to manage with milions of datapoints to connect and converse
+
+DBMS : Data Base Management System 
+commands/Queries -> DBMS-> (MySQL/PostgreSQL/
+
+RDBMS : Relational DBMS : Structured , struct rukes, data input only with set schema
+Non- RDBMS : Flexble, SQL not neccessary, no fixed schema, most used for Read and Write operation cases (ex: MongoDB; Cassandra; redis; neo4j
+
+SQL : (MySQL)
+using mysql-workbench-setup connection-username - password
+
