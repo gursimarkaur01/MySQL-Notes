@@ -1,0 +1,17 @@
+DATA TYPES in SQL
+  INT - for integers stored in table
+  VARCHAR - variable string 
+  ENUM - string object value chosen from list of permitted value 
+  DATE - stores date value
+
+  TIMESTAMPS - Stores Date and Time , automatically set to current 
+  BOOLEAN - True or False
+  DECIMAL - (10,2) exact values (total number of digits, digits after decimal)
+
+
+  CONSTARINTS 
+  1 . Auto_increment - Automatically generates a unique number for each row.
+  2. Primary key - uniquely identifies each row in the table
+  3. not null - ensures a column cannot have a null value 
+  4. unique - ensures all values in a column are different
+  
