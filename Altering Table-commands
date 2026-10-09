@@ -1,1 +1,33 @@
+We can use ALTER TABLE Commands to make alterations in the prepared table in follwoing ways: 
 
+
+ADD: ALTER TABLE (table_name) add column (column_name) (datatype_column) value_youwant_toenter. 
+  ALTER TABLE users
+  ADD COLUMN is_active BOOLEAN DEFAULT TRUE;
+
+MODIFY: Alter table (tablename) Modify column (column_name) datatype After Id    #if you want to put a coolumn after email column
+  ALTER TABLE users
+  MODIFY COLUMN name VARCHAR(150);
+
+DROP: Drop is used to permanently drop(delete) table/column/data
+  ALTER TABLE users
+  DROP COLUMN is_active;
+
+RENAME : Rename column name 
+  ALTER TABLE users
+  RENAME COLUMN phone TO mobile_number;
+
+
+MOVE : To move a column to the first position 
+  ALTER TABLE users
+  MODIFY COLUMN email VARCHAR(100) FIRST;
+
+Moving column name after another column
+  ALTER TABLE users
+  MODIFY COLUMN gender ENUM('Male', 'Female', 'Other')
+  AFTER name;
+
+Adding Multiple column :
+  ALTER TABLE users
+  ADD COLUMN phone VARCHAR(15),
+  ADD COLUMN city VARCHAR(100);
