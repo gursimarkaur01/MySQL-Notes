@@ -1,0 +1,16 @@
+Adding records using INSERT INTO.
+INSERT INTO is used to add data into a table
+
+insert w/o specific column names : 
+# This method requires you to provide values for all columns in order, except columns with default values
+or AUTO_INCREMENT:
+  INSERT INTO users VALUES (1, "Alice", 'aice@example.com', 'Female', '1234-5678', DEFAULT);
+
+inserting by specific column names: 
+  INSERT INTO users (name, email, phone, gender, date_of_birth)
+  values('bob','bob@emaple.com', 'Male', '1234-5678');
+
+MULTIPLE ROWS INSERTING DATA:
+  Insert into users (name, email, gender, date_of_birth)
+  values('bob','bob@example.com', 'male', '1988-01-02'),
+  ('charlie', 'charlie@example.com', 'female', '1233-03-12');
