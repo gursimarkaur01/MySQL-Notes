@@ -1,0 +1,2 @@
+-- updating multiple values.
+UPDATE users SET salary = 45000, email='arav@email.com' where id = 1;
